@@ -1,0 +1,14 @@
+ASP.NET Core Web API .NET 8
+
+Reference: https://www.youtube.com/watch?v=qBTe6uHJS_Y&list=PL82C6-O4XrHfrGOCPmKmwTO7M0avXyQKc
+
+1. In a new folder run the following command in terminal - dotnet new webapi -o api
+2. run - dotnet watch run
+3. remove boilerplate code in program.cs between app.UseHttpsRedirection(); and app.Run(); and the record after app.Run();
+4. ctrl shift p -> search NuGet Gallery -> EFC SqlServer / Tools / Design
+5. create models
+6. create ApplicationDBContext
+7. create db in SSMS
+8. add ConnectionString to appsettings.json
+9. run - dotnet ef migrations add Init (first run -> dotnet tool install --global dotnet-ef --version 8.0.x)
+10. run - dotnet ef database update
