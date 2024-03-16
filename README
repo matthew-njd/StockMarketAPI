@@ -2,7 +2,7 @@ ASP.NET Core Web API .NET 8
 
 Reference: https://www.youtube.com/watch?v=qBTe6uHJS_Y&list=PL82C6-O4XrHfrGOCPmKmwTO7M0avXyQKc
 
-Last video: https://www.youtube.com/watch?v=cSnoAGHKVus&list=PL82C6-O4XrHfrGOCPmKmwTO7M0avXyQKc&index=4
+Last video: https://www.youtube.com/watch?v=Pkeu_o8k99Q&list=PL82C6-O4XrHfrGOCPmKmwTO7M0avXyQKc&index=21
 
 1. In a new folder run the following command in terminal - dotnet new webapi -o api
 2. run - dotnet watch run
